@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navCall col-sm-12" id="navbarNav">
+          <ul class="navbar-nav navLink">
+            <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+      
+      <!-- About -->
+      
+      <h1 class="indexName" href="#" style="text-decoration: underline 2px; text-align: center; padding-top: 40px;
+      ">About </h1>
+
+<div class="aboutMe container mt-5">
+<div class="card-group row">
+    <div class="card col-sm-4">
+      <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/1584/1584942.png" alt="Card image cap">
+      <div class="card-body col">
+        <h5 class="card-title">Fast</h5>
+        <p class="card-text">Fast load times and lag free interaction, my highest priority.</p>
+       
+      </div>
+    </div>
+    <div class="card col-sm-4">
+      <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/2721/2721291.png" alt="Card image cap">
+      <div class="card-body col">
+        <h5 class="card-title">Responsive</h5>
+        <p class="card-text">My aim is too make my every project Responsive. The layouts i build will work on any device, big or small.</p>
+       
+      </div>
+    </div>
+    <div class="card col-sm-4">
+      <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/128/1042/1042008.png" alt="Card image cap">
+      <div class="card-body col">
+        <h5 class="card-title">Intuitive</h5>
+        <p class="card-text">I have a Strong preference for easy to use, intuitive UX/UI and very accessible layout building.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+   
+    </div>
+
+    <!-- My Details -->
+
+    <br>
+    <div class="card aboutMe2" style="width: 18rem;">
+        <img class="card-img-top profilePic" src="images/sumith-pic.jpg" alt="Card image cap">
+        <div class="card-boy">
+          <h5 class="card-title" style="margin-right:30px;">Who am i?</h5>
+          <p class="card-text" style="font-size: medium;">I'm an Entry level Front-End Developer in Bangalore, India. <hr style="margin-right: 25px;"> I love to code, passion for UI/UX, creating intuitive and dynamic user experiences. </p>
+     
+        </div>
+        
+      </div>
+     
+   <div> 
+       <canvas id="myChart" width="200" height="100" style="width:50%;max-width:600px"></canvas> 
+   </div>
+<!-- Contact me -->
+
+<div>
+  <hr style="color: white;">
+<h1 class="indexName" href="#" id="contact" style="text-decoration: underline 2px; text-align: center;
+">Get in touch </h1>
+</div>
+
+<h4 class="haveAnyQ">Have a question or want to work together?
+</h4>
+<div class="row contactBox">
+<form action="">
+  <input type="text" placeholder="Name" style="width: 645px;">
+  <br>
+  <input type="email" placeholder="Email" style="width: 645px; font-family: DM Sans;">
+<br>
+<textarea placeholder="Your Message" name="message" spellcheck="false" style="width: 645px; height: 179px; font-family: 'Courier New', Courier, monospace;"></textarea>
+<br>
+<input type="submit" class="button" id="submit" value="SUBMIT" style="text-align: left;">
+
+</form>
+</div>
+
+<!-- Footer -->
+<br>
+<footer>
+  <div style="font-size: 2.6rem; padding-left: 120px;" class="foot">
+  <a class="fa-brands fa-linkedin" style="color: white;text-decoration: none;" href="https://www.linkedin.com/in/sumith-singh-6ba03b190/"></a>
+  
+  <a class="fa-brands fa-github" style="color: white; text-decoration: none;" href="https://github.com/SumithSingh18/"></a>
+
+  <a class="fa-brands fa-codepen" style="color: aliceblue; text-decoration: none;" href="https://codepen.io/sumithsingh18" ></a>
+
+  </div>
+  <div class="footNote"><h6>SUMITH SINGH <span style="color: rgb(201, 29, 58);">©2022</span> </h6></div>
+  
+
+</footer>
+ 
+
+    <script src="scripts.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  </body>
+</html>
